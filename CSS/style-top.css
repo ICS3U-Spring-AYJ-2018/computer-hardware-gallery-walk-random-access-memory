@@ -1,32 +1,20 @@
-/*h1 {
+h1 {
   background-color: #13293D;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
-  padding-top: 20px;
-  length: 3px;
+  padding: 20px;
   float: left;
-  width: 1110px;
-  position: fixed;
-  font-size: 35px;
-  height: 90px;
-  padding-left: 10px;
+  width: relative;
+  position: relative;
+  font-size: 27px;
 }
 
 th {
-  display: inline-block;
-  color: white;
-  padding: 5px;
+  display: inline-block color: white;
+  padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
-  font-size: 20px;
-  position: fixed;
+  font-size: 1.35em;
 }
-table {
-  border-collapse: separate;
-  border-spacing: 4px;
-  background-color: #13293D;
-  position: relative;
-}
-
 
 th a {
   color: #DDDDDD;
@@ -34,17 +22,18 @@ th a {
 
 th a:hover {
   color: white;
-}*/
-.navbar-brand{
-  color: white;
 }
-.nav-link{
-  color: white;
-}
-.nav-link:hover {
-  color: #DDDDDD;
-}
+
 #top {
   background-color: #13293D;
-  color: white;
+  position: fixed;
+  top:0;
+  width: 100%
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 4px;
+  position: relative;
+  margin-left: auto
 }
