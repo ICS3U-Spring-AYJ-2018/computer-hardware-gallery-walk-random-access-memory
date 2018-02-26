@@ -1,0 +1,31 @@
+#bodycontent {
+  background-color: #BBBBBB;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+  padding: 50px;
+  margin-top:35px;
+}
+
+body {
+  background-color: #006494;
+}
+
+#robertdennard-img {
+  display: block;
+  text-align: center;
+}
+
+#ram-img {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  width: 420px;
+  height: 315px;
+}
+#jk{
+  float: center;
+}
