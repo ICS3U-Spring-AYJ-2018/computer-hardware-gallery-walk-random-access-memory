@@ -1,3 +1,13 @@
+/* Sets specifc margin for larger screens so that #bodycontent isn't overlapped by navigation bar. */
+body {
+  background-color: #006494;
+  margin-top: 60px
+}
+
+.container{
+  height: 100%;
+}
+
 #bodycontent {
   background-color: #BBBBBB;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
@@ -5,19 +15,17 @@
   height: 100%
 }
 
-body {
-  background-color: #006494;
-  margin-top: 60px
+img {
+  display: block;
+  margin: 0 auto;
 }
 
-#robertdennard-img {
-  display: block;
-  text-align: center;
+#site-counter {
+  display: inline-block;
+  width: 50px
 }
 
 #ram-img {
-  display: block;
-  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -27,6 +35,12 @@ iframe {
   width: 420px;
   height: 315px;
 }
-#jk{
+
+#jk {
   float: center;
+}
+
+#octal-table td {
+  text-align: right;
+  padding: 4px;
 }
